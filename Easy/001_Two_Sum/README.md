@@ -1,3 +1,9 @@
+# [001]. Two Sum
+
+**Difficulty:** Easy
+
+## Probelm Description
+
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -26,3 +32,22 @@ Constraints:
 Only one valid answer exists.
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+
+## Approach
+
+1. use `for` loop to iterate all elements in given array
+
+2. for each element, compute `target` - current_val
+
+3. check the computed val is in the rest of array
+
+4. return the index of current val and computed val.
+
+## Complexiuty Analysis
+
+- **Time Complexity**: O(N^2)
+- **Space Complexity**: O(1)
+
+## Tags
+
+`Arrays`
