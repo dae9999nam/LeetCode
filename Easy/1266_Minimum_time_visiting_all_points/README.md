@@ -25,8 +25,8 @@ You are allowed to pass through points that appear later in the order, but these
 
 ## Complexity Analysis
 
-- **Time Complexity:** O(?)
-- **Space Complexity:** O(?)
+- **Time Complexity:** O(N)
+- **Space Complexity:** O(1)
 
 ## Tags
 
