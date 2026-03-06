@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-                nums.sort()
+        nums.sort()
         n = len(nums)
         res = []
 
