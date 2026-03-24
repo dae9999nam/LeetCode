@@ -49,4 +49,3 @@ The number of nodes in the list is n.
 
 `Linked List`, `Recursion`, `Two Pointers`
 
-`test`
