@@ -1,0 +1,44 @@
+# [#111]. Minimum Depth of Binary Tree
+
+**Difficulty:** Easy
+
+## Problem Description
+
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Note: A leaf is a node with no children.
+
+```python
+Example 1:
+
+Input: root = [3,9,20,null,null,15,7]
+Output: 2
+Example 2:
+
+Input: root = [2,null,3,null,4,null,5,null,6]
+Output: 5
+
+Constraints:
+
+The number of nodes in the tree is in the range [0, 105].
+-1000 <= Node.val <= 1000
+```
+
+## Approach
+
+1. When leaf is found return height 1
+
+2. Compare each side of subtrees recursively
+
+3. When both side subtree exists, return the minimum height
+
+## Complexity Analysis
+
+- **Time Complexity:** O(N)
+- **Space Complexity:** O(H)
+
+## Tags
+
+`Recursion`, `Binary Tree`
