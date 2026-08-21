@@ -25,10 +25,10 @@ This repository contains my solutions to various LeetCode problems. Each solutio
 
 | Difficulty | Solved | Total   |
 | ---------- | ------ | ------- |
-| Easy       | 0      | TBD     |
-| Medium     | 0      | TBD     |
-| Hard       | 0      | TBD     |
-| **Total**  | **0**  | **TBD** |
+| Easy       | 29     | TBD     |
+| Medium     | 16     | TBD     |
+| Hard       | 2      | TBD     |
+| **Total**  | **47** | **TBD** |
 
 ## 🗂️ Repository Structure
 
